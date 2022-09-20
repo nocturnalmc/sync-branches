@@ -731,10 +731,10 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@zeit/ncc@^0.22.3":
-  "integrity" "sha512-jnCLpLXWuw/PAiJiVbLjA8WBC0IJQbFeUwF4I9M+23MvIxTxk5pD4Q8byQBSPmHQjz5aBoA7AKAElQxMpjrCLQ=="
-  "resolved" "https://registry.npmjs.org/@zeit/ncc/-/ncc-0.22.3.tgz"
-  "version" "0.22.3"
+"@vercel/ncc@^0.34.0":
+  "integrity" "sha512-G9h5ZLBJ/V57Ou9vz5hI8pda/YQX5HQszCs3AmIus3XzsmRn/0Ptic5otD3xVST8QLKk7AMk7AqpsyQGN7MZ9A=="
+  "resolved" "https://registry.npmjs.org/@vercel/ncc/-/ncc-0.34.0.tgz"
+  "version" "0.34.0"
 
 "abab@^2.0.3", "abab@^2.0.5":
   "integrity" "sha512-9IK9EadsbHo6jLWIpxpR6pL0sazTXV6+SQv25ZB+F7Bj9mJNaOc4nCRabwd5M/JwmUa8idz6Eci6eKfJryPs6Q=="
