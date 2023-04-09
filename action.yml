@@ -1,17 +1,17 @@
-name: "Sync branches"
-description: "GitHub Action to, upon successful merge, open a pull request to sync the updated branch back to one or more other branches."
+name: 'Sync branches'
+description: 'GitHub Action to, upon successful merge, open a pull request to sync the updated branch back to one or more other branches.'
 branding:
   icon: git-pull-request
   color: green
 inputs:
   GITHUB_TOKEN:
-    description: "User token to be associated with this pull request."
+    description: 'User token to be associated with this pull request.'
     required: true
   FROM_BRANCH:
-    description: "Branch from make pull-request from"
+    description: 'Branch from make pull-request from'
     required: true
   TO_BRANCH:
-    description: "Branch to make the pull-request against"
+    description: 'Branch to make the pull-request against'
     required: true
   PULL_REQUEST_TITLE:
     description: "What you would like as the title of the pull request. Default: 'sync: {FROM_BRANCH} to {TO_BRANCH}'"
@@ -39,9 +39,9 @@ inputs:
     default: '[]'
 outputs:
   PULL_REQUEST_URL:
-    description: "URL for either the generated pull request or the currently open one"
+    description: 'URL for either the generated pull request or the currently open one'
   PULL_REQUEST_NUMBER:
-    description: "Pull request number from generated pull request or the currently open one"
+    description: 'Pull request number from generated pull request or the currently open one'
 runs:
-  using: "node12"
-  main: "dist/index.js"
+  using: 'node18'
+  main: 'dist/index.js'
